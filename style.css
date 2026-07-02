@@ -1,0 +1,89 @@
+:raiz {
+    /* Propriedades personalizadas */
+    --cor-preto-absoluto: #000000;
+    --cor-branco-macio: #f1f1f1;
+    --cor-branco-neve: #ffffff;
+    --cor-índigo-claro: #607ec9;
+    --cor-índigo-escuro: #062863;
+    /* --cor-indigogradiente: */
+}
+
+--cor-overlay: #0000007a;
+--família de fontes: "Poppins",
+sem serifa;
+}
+
+* {
+    margem: 0;
+    acolchoamento: 0;
+    estilo de lista: nenhum;
+    dimensionamento de caixa: caixa de borda;
+}
+
+corpo {
+    cor de fundo: var(--cor-branco-neve);
+    família de fontes: var(--família de fontes);
+}
+
+/* Classe global para acessibilidade */
+.somente para idosos {
+    posição: absoluto;
+    largura: 1px;
+    altura: 1px;
+    acolchoamento: 0;
+    margem: -1px;
+    transbordamento: escondido;
+    grampo: retângulo(0, 0, 0, 0);
+    espaço em branco: nowrap;
+    fronteira: 0;
+}
+
+/* TODO: remover */
+imagem {
+    largura-máxima: 100%;
+}
+
+.destaque {
+    altura: 80dvh;
+    imagem de fundo: URL(assets/img/building.png);
+    fundo-repetir: sem repetição;
+    posição de fundo: centro;
+    tamanho de fundo: cobrir;
+}
+
+.sobreposição {
+    cor de fundo: var(--cor-overlay);
+    altura: 100%;
+    mostrar: flexível;
+    alinhar-itens: centro;
+    justificar-conteúdo: espaço entre;
+}
+
+.sobreposição p {
+    cor: var(--cor-branco-neve);
+    peso da fonte: audacioso;
+    mostrar: flexível;
+    flexão direcional: coluna;
+    alinhar-itens: centro;
+    preenchimento à esquerda: 0, 7rem;
+    acolchoamento à direita: 0, 7rem;
+}
+
+.sobreposição p extensão:enésimo filho(1) {
+    tamanho da fonte: 2rem;
+    peso da fonte: 700;
+}
+
+.sobreposição p extensão:enésimo filho(2) {
+    tamanho da fonte: 0, 825rem;
+    peso da fonte: 600;
+}
+
+.descrição {
+    cor de fundo: var(--cor-branco-macio);
+    altura: 80dvh;
+    mostrar: flexível;
+    flexão direcional: coluna;
+    justificar-conteúdo: centro;
+    alinhar-itens: centro;
+    alinhamento de texto: centro;
